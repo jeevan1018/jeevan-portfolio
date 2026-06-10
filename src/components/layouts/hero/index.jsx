@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 
-const roles = ["Frontend", "Full Stack", "React"];
+const roles = ["Frontend", "React", "Full Stack"];
 const Hero = ({ scrollToSection }) => {
   const [index, setIndex] = useState(0);
 
@@ -27,7 +27,7 @@ const Hero = ({ scrollToSection }) => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-5xl md:text-8xl font-bold font-['Orbitron'] mb-6">
-            <span className="text-gradient">Md Abdullah</span>
+            <span className="text-gradient">Jeevan Palapati</span>
           </h1>
           <div className="text-2xl md:text-4xl mb-8 h-16">
             <motion.p
@@ -36,7 +36,7 @@ const Hero = ({ scrollToSection }) => {
               transition={{ delay: 1, duration: 1 }}
               className="typing-animation hidden md:inline-block font-['Orbitron']"
             >
-              Frontend Developer | Full Stack Developer | React Developer
+              Results-driven Frontend Engineer — React, TypeScript, Node.js
             </motion.p>
 
             {/* Mobile (only animated role + "Developer") */}
@@ -57,8 +57,9 @@ const Hero = ({ scrollToSection }) => {
             transition={{ delay: 2, duration: 1 }}
             className="text-xl md:text-2xl mb-12 text-white max-w-3xl mx-auto"
           >
-            Crafting immersive digital experiences with React.js, GSAP
-            animations, and cutting-edge web technologies
+            Building user-friendly, performant web applications focused on
+            responsive UI, real-time features, and scalable full-stack
+            integrations.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

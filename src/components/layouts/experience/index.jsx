@@ -12,28 +12,26 @@ const Experience = () => {
   const experienceData = useMemo(
     () => [
       {
-        company: "Huemn Interactive Pvt.Ltd",
-        position: "Front End Developer",
-        period: "August 2024 - Present",
+        company: "VE Company (Ve.ai Project)",
+        position: "Frontend Developer",
+        period: "Aug 2024 - Present",
         description:
-          "Developed a No-Code website and proposal builder, enhancing user efficiency by 40%. Implemented Drag-and-Drop functionality with React.js, integrated GSAP animations for a 30% boost in engagement.",
+          "Worked on Ve.ai projects focusing on real-time voice-to-text dictation, live meeting transcription with speaker and microphone support, inline suggestion features, and integrations for calendar sync (Google & Outlook).",
         achievements: [
-          "40% user efficiency increase",
-          "30% engagement boost",
-          "20% load time reduction",
-          "25% content creation speed improvement",
+          "Implemented real-time audio-to-text transcription and meeting summaries",
+          "Built inline suggestion UI for faster content creation",
+          "Integrated third-party calendar services for workflow connectivity",
         ],
       },
       {
-        company: "PTR Technologies",
-        position: "Front End Developer",
-        period: "May 2023 - July 2024",
+        company: "Builder Project (Proposal Builder)",
+        position: "Frontend Developer",
+        period: "2024",
         description:
-          "Engineered and optimized HRMS & POS applications, increasing system efficiency by 30% and automating workflows, reducing manual effort by 40%.",
+          "Designed and developed a dynamic proposal builder enabling reusable templates (headers, testimonials, images, footers, galleries, buttons) with variable-driven content injection.",
         achievements: [
-          "30% system efficiency increase",
-          "40% manual effort reduction",
-          "25% API response time improvement",
+          "Created dynamic template system with editable components",
+          "Implemented interactive popup editors for template management",
         ],
       },
     ],

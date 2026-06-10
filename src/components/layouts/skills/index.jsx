@@ -5,46 +5,18 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillsData = useMemo(
     () => ({
-      programming: [
-        "C",
-        "C++",
-        "Python",
-        "SQL",
+      frontEndTechnologies: [
+        "HTML",
+        "SCSS",
+        "Tailwind CSS",
         "JavaScript",
         "TypeScript",
-        "JAVA",
+        "React",
       ],
-      frontend: [
-        "React.js",
-        "Redux Toolkit",
-        "Next.js",
-        "React Native",
-        "HTML5",
-        "CSS3",
-        "Tailwind",
-        "Bootstrap",
-        "Ant Design",
-        "GSAP",
-        "Framer Motion",
-        "Api Intergration",
-      ],
-      backend: [
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "MySQL",
-        "PostgreSQL",
-        "GraphQL",
-        "JWT",
-        "JSON",
-      ],
-      tools: ["Git/GitHub", "VS-Code", "Cursor", "Prompt Engineering"],
-      strengths: [
-        "Problem-Solving",
-        "Quick Learner",
-        "Team Player",
-        "Time Management",
-      ],
+      database: ["MongoDB"],
+      backend: ["Node.js", "Express.js"],
+      tools: ["GitHub", "Bitbucket", "Claude code", "Codex"],
+      strengths: ["Problem-Solving", "Quick Learner", "Team Player"],
     }),
     []
   );

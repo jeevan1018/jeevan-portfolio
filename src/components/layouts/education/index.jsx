@@ -12,16 +12,12 @@ const Education = () => {
   const educationData = useMemo(
     () => [
       {
-        institution: "Jawaharlal Nehru Technological University Hyderabad",
-        degree: "Bachelor of Technology in CSE",
-        period: "2021 - 2024",
-        grade: "74%",
-      },
-      {
-        institution: "State Board of Technical Education and Training",
-        degree: "Diploma in Computer Engineering",
-        period: "2018 - 2021",
-        grade: "76%",
+        institution: "CMR College of Engineering & Technology, Medchal",
+        degree: "B.Tech — Computer Science and Engineering",
+        period: "Graduated 2022",
+        grade: "CGPA: 6.38",
+        description:
+          "Focused on software development, data structures, and web technologies while building real-world applications.",
       },
     ],
     []
@@ -59,6 +55,9 @@ const Education = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    {edu.description}
+                  </p>
                   <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">{edu.period}</span>
                     <Badge variant="outline" className="neon-border">

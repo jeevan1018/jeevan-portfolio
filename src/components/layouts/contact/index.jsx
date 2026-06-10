@@ -40,39 +40,36 @@ const Contact = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-4">
                       <Mail className="w-6 h-6 text-primary" />
-                      <a
-                        href="mailto:ahilabdullah111@gmail.com"
-                        className="hover:underline"
-                      >
-                        ahilabdullah111@gmail.com
-                      </a>
+                      <a href="mailto:jeevanpalapati@gmail.com" className="hover:underline">
+                          jeevanpalapati@gmail.com
+                        </a>
                     </div>
                     <div className="flex items-center gap-4">
                       <Phone className="w-6 h-6 text-primary" />
-                      <a href="tel:+919505934716" className="hover:underline">
-                        9505934716
+                      <a href="tel:+918096514151" className="hover:underline">
+                        8096514151
                       </a>
                     </div>
                     <div className="flex items-center gap-4">
                       <Github className="w-6 h-6 text-primary" />
                       <a
-                        href="https://github.com/Md-Abdullah1"
+                        href="https://github.com/jeevan1018"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
                       >
-                        Md-Abdullah
+                        jeevan1018
                       </a>
                     </div>
                     <div className="flex items-center gap-4">
                       <Linkedin className="w-6 h-6 text-primary" />
                       <a
-                        href="https://linkedin.com/in/md-abdullah-29a067260"
+                        href="https://linkedin.com/in/jeevanpalapati"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline"
                       >
-                        md-abdullah
+                        jeevanpalapati
                       </a>
                     </div>
                   </div>
@@ -82,14 +79,11 @@ const Contact = () => {
               <div className="flex gap-4">
                 <Button className="flex-1 glow-effect">
                   <Mail className="w-4 h-4 mr-2" />
-                  <a href="mailto:ahilabdullah111@gmail.com">Send Email</a>
+                  <a href="mailto:jeevanpalapati@gmail.com">Send Email</a>
                 </Button>
                 <Button variant="outline" className="flex-1 neon-border">
                   <Download className="w-4 h-4 mr-2" />
-                  <a
-                    href="/Md-Abdulah-RESUME.pdf"
-                    download="Md_Abdullah_Resume.pdf"
-                  >
+                  <a href="/Jeevan_Palapati_Resume.pdf" download="Jeevan_Palapati_Resume.pdf">
                     Download CV
                   </a>
                 </Button>

@@ -28,18 +28,17 @@ const About = () => {
             <Card className="neon-border bg-card/50 backdrop-blur-sm">
               <CardContent className="p-8">
                 <p className="text-lg leading-relaxed mb-6">
-                  I'm a passionate Fullstack Developer specializing in the MERN
-                  stack with expertise in React.js and animation technologies.
-                  With a strong foundation in computer science and hands-on
-                  experience in building scalable web applications, I bring
-                  ideas to life through code and creativity.
+                  Results-driven Software Engineer with strong knowledge of
+                  frontend and backend development, specializing in scalable
+                  and user-friendly web applications. Experienced in React
+                  development, responsive UI/UX design, REST API integration,
+                  WebSocket communication, Context API state management, and
+                  building performance-optimized full-stack solutions.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
-                  My journey in web development has been driven by a love for
-                  creating engaging user experiences and solving complex
-                  problems. I specialize in building responsive, animated, and
-                  performance-optimized applications that not only look great
-                  but also deliver exceptional functionality.
+                  Seeking to contribute technical expertise and innovation to
+                  impactful software products while continuously learning and
+                  improving engineering practices.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="flex items-center gap-2">

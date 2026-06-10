@@ -24,7 +24,7 @@ const Header = ({ scrollToSection, activeSection }) => {
               className="cursor-pointer"
               onClick={() => scrollToSection("hero")}
             >
-              MA
+              JP
             </button>
           </motion.div>
 

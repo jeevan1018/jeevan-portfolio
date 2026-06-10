@@ -34,7 +34,7 @@ Each section is crafted with attention to detail — from hover effects to subtl
 
 ## 🖥️ Live Demo
 
-🔗 [View Portfolio](https://md-abdullah-ahil-portfolio.vercel.app/)  
+🔗 [View Portfolio](https://github.com/jeevan1018)  
 
 ---
 
@@ -63,7 +63,7 @@ src/
 
 ## 🧑‍💻 About Me
 
-I’m **Md Abdullah**, a passionate **Frontend Developer** with 2+ years of experience specializing in building modern, animated, and responsive web applications using React and related libraries.  
+I’m **Jeevan Palapati**, a Software Developer specializing in frontend and full-stack web applications.  
 
 💡 I focus on creating intuitive interfaces that balance performance with visual appeal — turning designs into engaging digital experiences.
 

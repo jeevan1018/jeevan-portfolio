@@ -14,46 +14,29 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
   const projectsData = useMemo(
     () => [
-      // {
-      //   title: "BUILDER SUITE",
-      //   description:
-      //     "Driving the Builder Project by developing scalable, reusable components and managing complex state for seamless feature integration. Optimized API interactions, enhancing data flow and user engagement by 40%.",
-      //   tech: ["React.js", "GSAP", "SCSS", "Lodash"],
-      //   impact: "40% increase in user engagement",
-      //   link: "https://www.ve.ai",
-      // },
-
       {
-        title: "TASKIFY",
+        title: "DHIORYA",
         description:
-          "Developed a Task Management System using Next.js and MERN stack, featuring secure role-based authentication, real-time updates, and optimized MongoDB queries.",
-        tech: ["Next.js", "MongoDB", "Node.js", "Express.js"],
-        impact: "40% improvement in task efficiency",
-        link: "https://github.com/Md-Abdullah1/taskify",
+          "An AI-enabled school management system with attendance, exam tracking, fee management, and parent-teacher communication features.",
+        tech: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        impact: "Streamlined school workflows and simplified academic operations.",
+        link: "https://github.com/jeevan1018/dhiorya",
       },
       {
-        title: "HRMS",
+        title: "Instagram Clone",
         description:
-          "Contributed to an HRMS application, improving employee tracking and management efficiency through optimized workflows and automation.",
-        tech: ["React.js", "Node.js", "MongoDB"],
-        impact: "30% efficiency improvement",
-        link: "https://github.com/Md-Abdullah1/appkube-hrms-ui",
+          "A polished Instagram-style app with responsive feed browsing, post creation, likes, comments, and profile interactions.",
+        tech: ["React.js", "Firebase", "Tailwind CSS", "JavaScript"],
+        impact: "Built a clean social media experience focused on media sharing and engagement.",
+        link: "https://github.com/jeevan1018/insta-app",
       },
       {
-        title: "POS APPLICATION",
+        title: "Cricbuzz",
         description:
-          "Developed a POS application using React Native, improving transaction efficiency and enhancing customer engagement through optimized UI/UX.",
-        tech: ["React Native", "API Integration"],
-        impact: "30% transaction efficiency boost",
-        link: "https://github.com/Md-Abdullah1/appkube-pos-app",
-      },
-      {
-        title: "Cloud Note",
-        description:
-          "A  MERN Application responsible for keeping notes of an individual person in cloud, where a person is able to access it  from anywhere / from any device ,maintain privacy. ",
-        tech: ["React.js", "Axios", "Headless", "heroicons"],
-        impact: "30% boost in Accessiblity and privacy",
-        link: "https://github.com/Md-Abdullah1/CloudNote",
+          "A cricket score and news dashboard presenting match updates, team stats, and live commentary in a sleek interface.",
+        tech: ["React.js", "API Integration", "CSS"],
+        impact: "Delivered a user-friendly cricket follow-along experience with real-time updates.",
+        link: "https://github.com/jeevan1018/cricbuzz",
       },
     ],
     []
